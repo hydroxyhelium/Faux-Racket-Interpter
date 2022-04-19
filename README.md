@@ -10,6 +10,7 @@ Here we assume that expressions have been tokenized.  <br/>
 
 
 data Ast = </br>
+           </br>
       Number Int </br>
     | Bin Op Ast Ast </br>
     | Fun String Ast </br>
